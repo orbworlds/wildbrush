@@ -4,5 +4,4 @@ out/
 .original/
 .decompile/
 .orb/
-package-lock.json
 .DS_Store
