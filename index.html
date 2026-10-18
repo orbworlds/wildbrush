@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wildbrush</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%277%27 fill=%27%2358d66b%27/%3E%3C/svg%3E" />
+    <style>html,body{background:#0e1116;height:100%;margin:0;overflow:hidden}#app{position:fixed;inset:0}#app canvas{outline:none;width:100%;height:100%;display:block}#ui-root{pointer-events:none;z-index:10;position:fixed;inset:0}#boot-loading{z-index:100;color:#e9e4d8;letter-spacing:.3em;background:#0e1116;place-items:center;font:500 14px/1 system-ui,sans-serif;transition:opacity .8s;display:grid;position:fixed;inset:0}</style>
+    <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/","three/examples/jsm/":"https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/","@dimforge/rapier3d-compat":"https://cdn.jsdelivr.net/npm/@dimforge/rapier3d-compat@0.21.0/dist/rapier.mjs","lil-gui":"https://cdn.jsdelivr.net/npm/lil-gui@0.21.0/dist/lil-gui.esm.js","simplex-noise":"https://cdn.jsdelivr.net/npm/simplex-noise@4.0.3/dist/esm/simplex-noise.js","postprocessing":"https://cdn.jsdelivr.net/npm/postprocessing@6.39.5/build/index.js","n8ao":"https://cdn.jsdelivr.net/npm/n8ao@2.0.1/dist/N8AO.js"}}</script>
+    <script type="application/json" id="orb-shop">{"items":[
+      {"id":"scarf-ember","name":"Ember Scarf","price":100,"emoji":"🔥","description":"Dyed Ember red, the colour of fire."},
+      {"id":"scarf-frost","name":"Frost Scarf","price":100,"emoji":"❄️","description":"Dyed Frost blue, the colour of ice."},
+      {"id":"scarf-spring","name":"Spring Scarf","price":100,"emoji":"🌼","description":"Dyed Spring yellow, the colour of bounce."},
+      {"id":"scarf-bloom","name":"Bloom Scarf","price":100,"emoji":"🌿","description":"Dyed Bloom green, the colour of growth."},
+      {"id":"scarf-rose","name":"Rose Scarf","price":100,"emoji":"🌹","description":"A soft rose pink."},
+      {"id":"scarf-midnight","name":"Midnight Scarf","price":100,"emoji":"🌙","description":"Night blue, banded in gold."},
+      {"id":"scarf-snow","name":"Snow Scarf","price":100,"emoji":"⛄","description":"Snow white, banded in ice blue."},
+      {"id":"scarf-gold","name":"Gold Scarf","price":200,"emoji":"✨","description":"Gold from end to end."},
+      {"id":"scarf-sunset","name":"Sunset Scarf","price":200,"emoji":"🌅","description":"Sunset orange, fading to violet at the tips."},
+      {"id":"scarf-prism","name":"Prism Scarf","price":300,"emoji":"🌈","description":"Shifts through every colour as you go."},
+      {"id":"scarf-aurora","name":"Aurora Scarf","price":300,"emoji":"🌌","description":"Ripples from green to violet, like the northern lights."},
+      {"id":"hood-crimson","name":"Crimson Hood","price":150,"emoji":"🍁","description":"Your hood and shoulder cape, dyed crimson."},
+      {"id":"hood-plum","name":"Plum Hood","price":150,"emoji":"🍇","description":"Your hood and shoulder cape, dyed plum."},
+      {"id":"hood-moss","name":"Moss Hood","price":150,"emoji":"🌲","description":"Your hood and shoulder cape, dyed moss green."},
+      {"id":"hood-sand","name":"Sand Hood","price":150,"emoji":"🏜️","description":"Your hood and shoulder cape, dyed sand."},
+      {"id":"hood-snow","name":"Snow Hood","price":150,"emoji":"🏔️","description":"Your hood and shoulder cape, dyed snow white."},
+      {"id":"hood-night","name":"Night Hood","price":150,"emoji":"🌑","description":"Your hood and shoulder cape, dyed night blue."},
+      {"id":"glider-night","name":"Starry Glider","price":250,"emoji":"🌠","description":"A night-blue canopy scattered with gold stars."},
+      {"id":"glider-prism","name":"Prism Glider","price":300,"emoji":"🎨","description":"A canopy striped in all four paints."},
+      {"id":"glider-leaf","name":"Leaf Glider","price":250,"emoji":"🍃","description":"Fresh greens, like a leaf on the wind."},
+      {"id":"glider-sunset","name":"Sunset Glider","price":250,"emoji":"🌇","description":"Warm stripes from gold to violet."}
+    ]}</script>
+    <link rel="stylesheet" href="./src/styles/ui.css" />
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="ui-root"></div>
+    <div id="boot-loading">LOADING</div>
+  </body>
+</html>

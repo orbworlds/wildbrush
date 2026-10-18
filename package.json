@@ -1,0 +1,35 @@
+{
+  "name": "wildbrush",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "package": "node tools/package.mjs",
+    "decompile:fetch": "node tools/decompile/fetch.mjs",
+    "decompile:identify": "node tools/decompile/identify.mjs",
+    "decompile": "node tools/decompile/run.mjs",
+    "compare": "node tools/decompile/compare.mjs",
+    "start": "orb dev",
+    "share": "orb share",
+    "test": "orb test"
+  },
+  "devDependencies": {
+    "@babel/generator": "7.29.8",
+    "@babel/parser": "7.29.9",
+    "@babel/traverse": "7.29.10",
+    "@babel/types": "7.29.8",
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "lil-gui": "0.21.0",
+    "n8ao": "2.0.1",
+    "orb-kit": "https://orbworlds.com/kit.tgz",
+    "playwright": "^1.63.0",
+    "postprocessing": "6.39.5",
+    "prettier": "3.9.10",
+    "simplex-noise": "4.0.3",
+    "three": "0.186.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

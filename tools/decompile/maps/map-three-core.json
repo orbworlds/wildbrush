@@ -1,0 +1,934 @@
+{
+ "exported": {
+  "$": {
+   "local": "Lr",
+   "name": "InterleavedBufferAttribute",
+   "sim": 0.998
+  },
+  "$n": {
+   "local": "f",
+   "name": "UnsignedByteType",
+   "sim": 1
+  },
+  "$t": {
+   "local": "_e",
+   "name": "RGBA_ASTC_6x5_Format",
+   "sim": 1
+  },
+  "A": {
+   "local": "k",
+   "name": "DepthStencilFormat",
+   "sim": 1
+  },
+  "An": {
+   "local": "Me",
+   "name": "SIGNED_RED_RGTC1_Format",
+   "sim": 1
+  },
+  "At": {
+   "local": "Vr",
+   "name": "Plane",
+   "sim": 1
+  },
+  "B": {
+   "local": "v",
+   "name": "FloatType",
+   "sim": 1
+  },
+  "Bn": {
+   "local": "Or",
+   "name": "Sphere",
+   "sim": 0.999
+  },
+  "Bt": {
+   "local": "fe",
+   "name": "RG11_EAC_Format",
+   "sim": 1
+  },
+  "C": {
+   "local": "Ba",
+   "name": "CubeTexture",
+   "sim": 0.886
+  },
+  "Cn": {
+   "local": "A",
+   "name": "RedFormat",
+   "sim": 1
+  },
+  "Cr": {
+   "local": "I",
+   "name": "warn",
+   "sim": 0.942
+  },
+  "Ct": {
+   "local": "o",
+   "name": "NearestFilter",
+   "sim": 1
+  },
+  "D": {
+   "local": "Li",
+   "name": "DataTexture",
+   "sim": 0.979
+  },
+  "Dn": {
+   "local": "ys",
+   "name": "RingGeometry",
+   "sim": 1
+  },
+  "Dt": {
+   "local": "_s",
+   "name": "OctahedronGeometry",
+   "sim": 1
+  },
+  "E": {
+   "local": "nn",
+   "name": "DataArrayTexture",
+   "sim": 0.994
+  },
+  "En": {
+   "local": "ct",
+   "name": null,
+   "sim": 0
+  },
+  "Et": {
+   "local": "W",
+   "name": "Object3D",
+   "sim": 0.96
+  },
+  "F": {
+   "local": "mn",
+   "name": "Euler",
+   "sim": 1
+  },
+  "Fn": {
+   "local": "Ns",
+   "name": "ShaderMaterial",
+   "sim": 0.988
+  },
+  "Ft": {
+   "local": "Pt",
+   "name": "Quaternion",
+   "sim": 1
+  },
+  "G": {
+   "local": "y",
+   "name": "HalfFloatType",
+   "sim": 1
+  },
+  "Gn": {
+   "local": "t",
+   "name": "TOUCH",
+   "sim": 1
+  },
+  "Gt": {
+   "local": "Se",
+   "name": "RGBA_ASTC_10x5_Format",
+   "sim": 1
+  },
+  "H": {
+   "local": "$i",
+   "name": "Frustum",
+   "sim": 0.994
+  },
+  "Hn": {
+   "local": "Hc",
+   "name": "Spherical",
+   "sim": 1
+  },
+  "Ht": {
+   "local": "D",
+   "name": "RGBAFormat",
+   "sim": 1
+  },
+  "I": {
+   "local": "lt",
+   "name": "EventDispatcher",
+   "sim": 0.858
+  },
+  "In": {
+   "local": "ko",
+   "name": "Shape",
+   "sim": 1
+  },
+  "It": {
+   "local": "ue",
+   "name": "R11_EAC_Format",
+   "sim": 1
+  },
+  "J": {
+   "local": "Vi",
+   "name": "InstancedBufferAttribute",
+   "sim": 0.996
+  },
+  "Jn": {
+   "local": "Ss",
+   "name": "TubeGeometry",
+   "sim": 0.999
+  },
+  "Jt": {
+   "local": "Ee",
+   "name": "RGBA_ASTC_12x10_Format",
+   "sim": 1
+  },
+  "K": {
+   "local": "oc",
+   "name": "HemisphereLight",
+   "sim": 0.999
+  },
+  "Kn": {
+   "local": "Qt",
+   "name": "Texture",
+   "sim": 0.99
+  },
+  "Kt": {
+   "local": "Ce",
+   "name": "RGBA_ASTC_10x6_Format",
+   "sim": 1
+  },
+  "L": {
+   "local": "Wa",
+   "name": "ExternalTexture",
+   "sim": 0.998
+  },
+  "Ln": {
+   "local": "m",
+   "name": "ShortType",
+   "sim": 1
+  },
+  "Lt": {
+   "local": "ft",
+   "name": "RAD2DEG",
+   "sim": 1
+  },
+  "M": {
+   "local": "Cc",
+   "name": "DirectionalLight",
+   "sim": 0.999
+  },
+  "Mn": {
+   "local": "We",
+   "name": "SRGBColorSpace",
+   "sim": 0.6
+  },
+  "Mt": {
+   "local": "bc",
+   "name": "PointLight",
+   "sim": 1
+  },
+  "N": {
+   "local": "Za",
+   "name": "DodecahedronGeometry",
+   "sim": 1
+  },
+  "Nn": {
+   "local": "qe",
+   "name": "SRGBTransfer",
+   "sim": 0.6
+  },
+  "Nt": {
+   "local": "Ra",
+   "name": "Points",
+   "sim": 0.981
+  },
+  "O": {
+   "local": "yr",
+   "name": "DataUtils",
+   "sim": 1
+  },
+  "On": {
+   "local": "de",
+   "name": "SIGNED_R11_EAC_Format",
+   "sim": 1
+  },
+  "Ot": {
+   "local": "xc",
+   "name": "OrthographicCamera",
+   "sim": 1
+  },
+  "P": {
+   "local": "Xe",
+   "name": "DynamicDrawUsage",
+   "sim": 1
+  },
+  "Pn": {
+   "local": "zn",
+   "name": "Scene",
+   "sim": 0.997
+  },
+  "Pt": {
+   "local": "wo",
+   "name": "QuadraticBezierCurve3",
+   "sim": 1
+  },
+  "Q": {
+   "local": "g",
+   "name": "IntType",
+   "sim": 1
+  },
+  "Qn": {
+   "local": "As",
+   "name": "UniformsUtils",
+   "sim": 1
+  },
+  "Qt": {
+   "local": "ge",
+   "name": "RGBA_ASTC_5x5_Format",
+   "sim": 1
+  },
+  "R": {
+   "local": "fs",
+   "name": "ExtrudeGeometry",
+   "sim": 0.944
+  },
+  "Rn": {
+   "local": "Bi",
+   "name": "Skeleton",
+   "sim": 0.999
+  },
+  "Rt": {
+   "local": "Ne",
+   "name": "RED_GREEN_RGTC2_Format",
+   "sim": 1
+  },
+  "S": {
+   "local": "Ua",
+   "name": "CubeDepthTexture",
+   "sim": 0.931
+  },
+  "Sn": {
+   "local": "ui",
+   "name": "Ray",
+   "sim": 1
+  },
+  "Sr": {
+   "local": "st",
+   "name": "probeAsync",
+   "sim": 1
+  },
+  "St": {
+   "local": "a",
+   "name": "MirroredRepeatWrapping",
+   "sim": 1
+  },
+  "T": {
+   "local": "rn",
+   "name": "Data3DTexture",
+   "sim": 0.99
+  },
+  "Tn": {
+   "local": "r",
+   "name": "RepeatWrapping",
+   "sim": 1
+  },
+  "Tt": {
+   "local": "s",
+   "name": "NearestMipMapNearestFilter",
+   "sim": 1
+  },
+  "U": {
+   "local": "Ze",
+   "name": "GLSL3",
+   "sim": 0.6
+  },
+  "Un": {
+   "local": "ii",
+   "name": "Sprite",
+   "sim": 0.993
+  },
+  "Ut": {
+   "local": "te",
+   "name": "RGBAIntegerFormat",
+   "sim": 1
+  },
+  "V": {
+   "local": "Rn",
+   "name": "Fog",
+   "sim": 0.989
+  },
+  "Vn": {
+   "local": "bs",
+   "name": "SphereGeometry",
+   "sim": 1
+  },
+  "Vt": {
+   "local": "Ue",
+   "name": "RGBADepthPacking",
+   "sim": 1
+  },
+  "W": {
+   "local": "jn",
+   "name": "Group",
+   "sim": 0.989
+  },
+  "Wn": {
+   "local": "Wr",
+   "name": "SpriteMaterial",
+   "sim": 0.987
+  },
+  "Wt": {
+   "local": "Te",
+   "name": "RGBA_ASTC_10x10_Format",
+   "sim": 1
+  },
+  "X": {
+   "local": "Vc",
+   "name": "InstancedInterleavedBuffer",
+   "sim": 0.998
+  },
+  "Xn": {
+   "local": "wr",
+   "name": "Uint32BufferAttribute",
+   "sim": 1
+  },
+  "Xt": {
+   "local": "me",
+   "name": "RGBA_ASTC_4x4_Format",
+   "sim": 1
+  },
+  "Y": {
+   "local": "wc",
+   "name": "InstancedBufferGeometry",
+   "sim": 0.983
+  },
+  "Yn": {
+   "local": "Cr",
+   "name": "Uint16BufferAttribute",
+   "sim": 1
+  },
+  "Yt": {
+   "local": "De",
+   "name": "RGBA_ASTC_12x12_Format",
+   "sim": 1
+  },
+  "Z": {
+   "local": "Yi",
+   "name": "InstancedMesh",
+   "sim": 0.999
+  },
+  "Zn": {
+   "local": "Bc",
+   "name": "Uniform",
+   "sim": 0.99
+  },
+  "Zt": {
+   "local": "he",
+   "name": "RGBA_ASTC_5x4_Format",
+   "sim": 1
+  },
+  "_": {
+   "local": "G",
+   "name": "Color",
+   "sim": 0.999
+  },
+  "_n": {
+   "local": "ae",
+   "name": "RGB_PVRTC_4BPPV1_Format",
+   "sim": 1
+  },
+  "_r": {
+   "local": "L",
+   "name": "error",
+   "sim": 0.949
+  },
+  "_t": {
+   "local": "di",
+   "name": "MeshBasicMaterial",
+   "sim": 0.997
+  },
+  "a": {
+   "local": "Ii",
+   "name": "Bone",
+   "sim": 0.987
+  },
+  "an": {
+   "local": "F",
+   "name": "RGBA_ETC2_EAC_Format",
+   "sim": 1
+  },
+  "ar": {
+   "local": "x",
+   "name": "UnsignedShort5551Type",
+   "sim": 1
+  },
+  "at": {
+   "local": "l",
+   "name": "LinearFilter",
+   "sim": 1
+  },
+  "b": {
+   "local": "Gc",
+   "name": "Controls",
+   "sim": 0.999
+  },
+  "bn": {
+   "local": "M",
+   "name": "RGIntegerFormat",
+   "sim": 1
+  },
+  "br": {
+   "local": "it",
+   "name": "log",
+   "sim": 0.828
+  },
+  "bt": {
+   "local": "Is",
+   "name": "MeshLambertMaterial",
+   "sim": 0.997
+  },
+  "c": {
+   "local": "Ga",
+   "name": "BoxGeometry",
+   "sim": 1
+  },
+  "cn": {
+   "local": "ne",
+   "name": "RGBA_S3TC_DXT1_Format",
+   "sim": 1
+  },
+  "cr": {
+   "local": "H",
+   "name": "Vector3",
+   "sim": 1
+  },
+  "ct": {
+   "local": "Ge",
+   "name": "LinearSRGBColorSpace",
+   "sim": 0.6
+  },
+  "d": {
+   "local": "p",
+   "name": "ByteType",
+   "sim": 1
+  },
+  "dn": {
+   "local": "E",
+   "name": "RGBFormat",
+   "sim": 1
+  },
+  "dr": {
+   "local": "tn",
+   "name": "WebGLRenderTarget",
+   "sim": 0.984
+  },
+  "dt": {
+   "local": "e",
+   "name": "MOUSE",
+   "sim": 1
+  },
+  "en": {
+   "local": "ve",
+   "name": "RGBA_ASTC_6x6_Format",
+   "sim": 1
+  },
+  "er": {
+   "local": "w",
+   "name": "UnsignedInt101111Type",
+   "sim": 1
+  },
+  "et": {
+   "local": "gs",
+   "name": "LatheGeometry",
+   "sim": 1
+  },
+  "f": {
+   "local": "Va",
+   "name": "CanvasTexture",
+   "sim": 0.954
+  },
+  "fn": {
+   "local": "ke",
+   "name": "RGB_BPTC_SIGNED_Format",
+   "sim": 1
+  },
+  "fr": {
+   "local": "Nn",
+   "name": "WebXRController",
+   "sim": 0.985
+  },
+  "ft": {
+   "local": "Ur",
+   "name": "Material",
+   "sim": 0.626
+  },
+  "g": {
+   "local": "i",
+   "name": "ClampToEdgeWrapping",
+   "sim": 1
+  },
+  "gn": {
+   "local": "oe",
+   "name": "RGB_PVRTC_2BPPV1_Format",
+   "sim": 1
+  },
+  "gr": {
+   "local": "tt",
+   "name": "createElementNS",
+   "sim": 1
+  },
+  "gt": {
+   "local": "Ci",
+   "name": "Mesh",
+   "sim": 0.982
+  },
+  "h": {
+   "local": "qa",
+   "name": "CircleGeometry",
+   "sim": 1
+  },
+  "hn": {
+   "local": "P",
+   "name": "RGB_ETC2_Format",
+   "sim": 1
+  },
+  "hr": {
+   "local": "nt",
+   "name": "createCanvasElement",
+   "sim": 1
+  },
+  "ht": {
+   "local": "U",
+   "name": "Matrix4",
+   "sim": 1
+  },
+  "i": {
+   "local": "ya",
+   "name": "BatchedMesh",
+   "sim": 0.995
+  },
+  "in": {
+   "local": "Oe",
+   "name": "RGBA_BPTC_Format",
+   "sim": 1
+  },
+  "ir": {
+   "local": "b",
+   "name": "UnsignedShort4444Type",
+   "sim": 1
+  },
+  "it": {
+   "local": "Ma",
+   "name": "LineSegments",
+   "sim": 0.998
+  },
+  "j": {
+   "local": "Ha",
+   "name": "DepthTexture",
+   "sim": 0.967
+  },
+  "jn": {
+   "local": "pe",
+   "name": "SIGNED_RG11_EAC_Format",
+   "sim": 1
+  },
+  "jt": {
+   "local": "vs",
+   "name": "PlaneGeometry",
+   "sim": 1
+  },
+  "k": {
+   "local": "O",
+   "name": "DepthFormat",
+   "sim": 1
+  },
+  "kn": {
+   "local": "Pe",
+   "name": "SIGNED_RED_GREEN_RGTC2_Format",
+   "sim": 1
+  },
+  "kt": {
+   "local": "vc",
+   "name": "PerspectiveCamera",
+   "sim": 1
+  },
+  "l": {
+   "local": "Sr",
+   "name": "BufferAttribute",
+   "sim": 1
+  },
+  "ln": {
+   "local": "re",
+   "name": "RGBA_S3TC_DXT3_Format",
+   "sim": 1
+  },
+  "lr": {
+   "local": "$t",
+   "name": "Vector4",
+   "sim": 1
+  },
+  "lt": {
+   "local": "Ke",
+   "name": "LinearTransfer",
+   "sim": 0.6
+  },
+  "m": {
+   "local": "so",
+   "name": "CatmullRomCurve3",
+   "sim": 0.993
+  },
+  "mn": {
+   "local": "le",
+   "name": "RGB_ETC1_Format",
+   "sim": 1
+  },
+  "mr": {
+   "local": "Ts",
+   "name": "cloneUniforms",
+   "sim": 1
+  },
+  "mt": {
+   "local": "Lt",
+   "name": "Matrix3",
+   "sim": 1
+  },
+  "n": {
+   "local": "Oc",
+   "name": "ArrayCamera",
+   "sim": 0.981
+  },
+  "nn": {
+   "local": "be",
+   "name": "RGBA_ASTC_8x6_Format",
+   "sim": 1
+  },
+  "nr": {
+   "local": "C",
+   "name": "UnsignedInt5999Type",
+   "sim": 1
+  },
+  "nt": {
+   "local": "ba",
+   "name": "LineBasicMaterial",
+   "sim": 0.997
+  },
+  "o": {
+   "local": "Wc",
+   "name": "Box2",
+   "sim": 0.986
+  },
+  "on": {
+   "local": "ce",
+   "name": "RGBA_PVRTC_2BPPV1_Format",
+   "sim": 1
+  },
+  "or": {
+   "local": "h",
+   "name": "UnsignedShortType",
+   "sim": 1
+  },
+  "ot": {
+   "local": "d",
+   "name": "LinearMipMapLinearFilter",
+   "sim": 1
+  },
+  "p": {
+   "local": "Ka",
+   "name": "CapsuleGeometry",
+   "sim": 1
+  },
+  "pn": {
+   "local": "Ae",
+   "name": "RGB_BPTC_UNSIGNED_Format",
+   "sim": 1
+  },
+  "pr": {
+   "local": "Cs",
+   "name": "WireframeGeometry",
+   "sim": 0.998
+  },
+  "pt": {
+   "local": "Nt",
+   "name": "MathUtils",
+   "sim": 1
+  },
+  "q": {
+   "local": "hs",
+   "name": "IcosahedronGeometry",
+   "sim": 1
+  },
+  "qn": {
+   "local": "xs",
+   "name": "TorusGeometry",
+   "sim": 1
+  },
+  "qt": {
+   "local": "we",
+   "name": "RGBA_ASTC_10x8_Format",
+   "sim": 1
+  },
+  "r": {
+   "local": "He",
+   "name": "BasicDepthPacking",
+   "sim": 1
+  },
+  "rn": {
+   "local": "xe",
+   "name": "RGBA_ASTC_8x8_Format",
+   "sim": 1
+  },
+  "rr": {
+   "local": "_",
+   "name": "UnsignedIntType",
+   "sim": 1
+  },
+  "rt": {
+   "local": "So",
+   "name": "LineCurve3",
+   "sim": 1
+  },
+  "s": {
+   "local": "er",
+   "name": "Box3",
+   "sim": 0.992
+  },
+  "sn": {
+   "local": "se",
+   "name": "RGBA_PVRTC_4BPPV1_Format",
+   "sim": 1
+  },
+  "sr": {
+   "local": "V",
+   "name": "Vector2",
+   "sim": 1
+  },
+  "st": {
+   "local": "u",
+   "name": "LinearMipMapNearestFilter",
+   "sim": 1
+  },
+  "t": {
+   "local": "T",
+   "name": "AlphaFormat",
+   "sim": 1
+  },
+  "tn": {
+   "local": "ye",
+   "name": "RGBA_ASTC_8x5_Format",
+   "sim": 1
+  },
+  "tr": {
+   "local": "S",
+   "name": "UnsignedInt248Type",
+   "sim": 1
+  },
+  "tt": {
+   "local": "hn",
+   "name": "Layers",
+   "sim": 0.993
+  },
+  "u": {
+   "local": "X",
+   "name": "BufferGeometry",
+   "sim": 0.964
+  },
+  "un": {
+   "local": "ie",
+   "name": "RGBA_S3TC_DXT5_Format",
+   "sim": 1
+  },
+  "ur": {
+   "local": "Qe",
+   "name": "WebGLCoordinateSystem",
+   "sim": 1
+  },
+  "ut": {
+   "local": "ic",
+   "name": "LoadingManager",
+   "sim": 0.933
+  },
+  "v": {
+   "local": "Ht",
+   "name": null,
+   "sim": 0
+  },
+  "vn": {
+   "local": "N",
+   "name": "RGB_S3TC_DXT1_Format",
+   "sim": 1
+  },
+  "vr": {
+   "local": "Kc",
+   "name": "getByteLength",
+   "sim": 1
+  },
+  "vt": {
+   "local": "Ls",
+   "name": "MeshDepthMaterial",
+   "sim": 0.999
+  },
+  "w": {
+   "local": "Ja",
+   "name": "CylinderGeometry",
+   "sim": 0.996
+  },
+  "wn": {
+   "local": "j",
+   "name": "RedIntegerFormat",
+   "sim": 1
+  },
+  "wr": {
+   "local": "ot",
+   "name": "warnOnce",
+   "sim": 0.69
+  },
+  "wt": {
+   "local": "c",
+   "name": "NearestMipMapLinearFilter",
+   "sim": 1
+  },
+  "x": {
+   "local": "Dc",
+   "name": "CubeCamera",
+   "sim": 0.996
+  },
+  "xn": {
+   "local": "Ps",
+   "name": "RawShaderMaterial",
+   "sim": 0.989
+  },
+  "xr": {
+   "local": "Es",
+   "name": "mergeUniforms",
+   "sim": 1
+  },
+  "xt": {
+   "local": "Fs",
+   "name": "MeshStandardMaterial",
+   "sim": 0.983
+  },
+  "y": {
+   "local": "Ya",
+   "name": "ConeGeometry",
+   "sim": 0.998
+  },
+  "yn": {
+   "local": "ee",
+   "name": "RGFormat",
+   "sim": 1
+  },
+  "yr": {
+   "local": "ks",
+   "name": "getUnlitUniformColorSpace",
+   "sim": 0.995
+  },
+  "yt": {
+   "local": "Rs",
+   "name": "MeshDistanceMaterial",
+   "sim": 0.999
+  },
+  "z": {
+   "local": "J",
+   "name": "Float32BufferAttribute",
+   "sim": 1
+  },
+  "zn": {
+   "local": "Fi",
+   "name": "SkinnedMesh",
+   "sim": 0.993
+  },
+  "zt": {
+   "local": "je",
+   "name": "RED_RGTC1_Format",
+   "sim": 1
+  }
+ }
+}

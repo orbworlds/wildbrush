@@ -1,0 +1,14 @@
+{
+ "exported": {
+  "n": {
+   "local": "i",
+   "name": "mergeVertices",
+   "sim": 0.956
+  },
+  "t": {
+   "local": "n",
+   "name": "mergeGeometries",
+   "sim": 0.984
+  }
+ }
+}

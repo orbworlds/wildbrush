@@ -1,0 +1,466 @@
+{
+ "map": {
+  "it": {
+   "name": "WebGLAnimation"
+  },
+  "at": {
+   "name": "WebGLAttributes"
+  },
+  "R": {
+   "name": "ShaderChunk"
+  },
+  "z": {
+   "name": "UniformsLib"
+  },
+  "ot": {
+   "name": "ShaderLib"
+  },
+  "st": {
+   "name": "_rgb"
+  },
+  "ut": {
+   "name": "WebGLBackground"
+  },
+  "dt": {
+   "name": "WebGLBindingStates"
+  },
+  "ft": {
+   "name": "WebGLBufferRenderer"
+  },
+  "pt": {
+   "name": "WebGLCapabilities"
+  },
+  "mt": {
+   "name": "WebGLClipping"
+  },
+  "ht": {
+   "name": "LOD_MIN"
+  },
+  "gt": {
+   "name": "EXTRA_LODS"
+  },
+  "_t": {
+   "name": "BLUR_SAMPLES"
+  },
+  "vt": {
+   "name": "GGX_SAMPLES"
+  },
+  "St": {
+   "name": "_oldActiveCubeFace"
+  },
+  "Ct": {
+   "name": "_oldActiveMipmapLevel"
+  },
+  "Dt": {
+   "name": "PMREMGenerator"
+  },
+  "Ot": {
+   "name": "_createPlanes"
+  },
+  "kt": {
+   "name": "_createRenderTarget"
+  },
+  "At": {
+   "name": "_setViewport"
+  },
+  "jt": {
+   "name": "_getGGXShader"
+  },
+  "Mt": {
+   "name": "_getBlurShader"
+  },
+  "Nt": {
+   "name": "_getEquirectMaterial"
+  },
+  "Pt": {
+   "name": "_getCubemapMaterial"
+  },
+  "Ft": {
+   "name": "_getCommonVertexShader"
+  },
+  "It": {
+   "name": "WebGLCubeRenderTarget"
+  },
+  "Lt": {
+   "name": "WebGLEnvironments"
+  },
+  "Rt": {
+   "name": "WebGLExtensions"
+  },
+  "zt": {
+   "name": "WebGLGeometries"
+  },
+  "Bt": {
+   "name": "WebGLIndexedBufferRenderer"
+  },
+  "Vt": {
+   "name": "WebGLInfo"
+  },
+  "Ht": {
+   "name": "WebGLMorphtargets"
+  },
+  "Ut": {
+   "name": "WebGLObjects"
+  },
+  "Wt": {
+   "name": "toneMappingMap"
+  },
+  "Gt": {
+   "name": "WebGLOutput"
+  },
+  "qt": {
+   "name": "emptyShadowTexture"
+  },
+  "$t": {
+   "name": "mat4array"
+  },
+  "en": {
+   "name": "mat3array"
+  },
+  "tn": {
+   "name": "mat2array"
+  },
+  "nn": {
+   "name": "flatten"
+  },
+  "rn": {
+   "name": "arraysEqual"
+  },
+  "an": {
+   "name": "copyArray"
+  },
+  "on": {
+   "name": "allocTexUnits"
+  },
+  "sn": {
+   "name": "setValueV1f"
+  },
+  "cn": {
+   "name": "setValueV2f"
+  },
+  "ln": {
+   "name": "setValueV3f"
+  },
+  "un": {
+   "name": "setValueV4f"
+  },
+  "dn": {
+   "name": "setValueM2"
+  },
+  "fn": {
+   "name": "setValueM3"
+  },
+  "pn": {
+   "name": "setValueM4"
+  },
+  "mn": {
+   "name": "setValueV1i"
+  },
+  "hn": {
+   "name": "setValueV2i"
+  },
+  "gn": {
+   "name": "setValueV3i"
+  },
+  "_n": {
+   "name": "setValueV4i"
+  },
+  "vn": {
+   "name": "setValueV1ui"
+  },
+  "yn": {
+   "name": "setValueV2ui"
+  },
+  "bn": {
+   "name": "setValueV3ui"
+  },
+  "xn": {
+   "name": "setValueV4ui"
+  },
+  "Sn": {
+   "name": "setValueT1"
+  },
+  "Cn": {
+   "name": "setValueT3D1"
+  },
+  "wn": {
+   "name": "setValueT6"
+  },
+  "Tn": {
+   "name": "setValueT2DArray1"
+  },
+  "En": {
+   "name": "getSingularSetter"
+  },
+  "Dn": {
+   "name": "setValueV1fArray"
+  },
+  "On": {
+   "name": "setValueV2fArray"
+  },
+  "kn": {
+   "name": "setValueV3fArray"
+  },
+  "An": {
+   "name": "setValueV4fArray"
+  },
+  "jn": {
+   "name": "setValueM2Array"
+  },
+  "Mn": {
+   "name": "setValueM3Array"
+  },
+  "Nn": {
+   "name": "setValueM4Array"
+  },
+  "Pn": {
+   "name": "setValueV1iArray"
+  },
+  "Fn": {
+   "name": "setValueV2iArray"
+  },
+  "In": {
+   "name": "setValueV3iArray"
+  },
+  "Ln": {
+   "name": "setValueV4iArray"
+  },
+  "Rn": {
+   "name": "setValueV1uiArray"
+  },
+  "zn": {
+   "name": "setValueV2uiArray"
+  },
+  "Bn": {
+   "name": "setValueV3uiArray"
+  },
+  "Vn": {
+   "name": "setValueV4uiArray"
+  },
+  "Hn": {
+   "name": "setValueT1Array"
+  },
+  "Un": {
+   "name": "setValueT3DArray"
+  },
+  "Wn": {
+   "name": "setValueT6Array"
+  },
+  "Gn": {
+   "name": "setValueT2DArrayArray"
+  },
+  "Kn": {
+   "name": "getPureArraySetter"
+  },
+  "qn": {
+   "name": "SingleUniform"
+  },
+  "Jn": {
+   "name": "PureArrayUniform"
+  },
+  "Yn": {
+   "name": "StructuredUniform"
+  },
+  "Zn": {
+   "name": "addUniform"
+  },
+  "Qn": {
+   "name": "parseUniform"
+  },
+  "$n": {
+   "name": "WebGLUniforms"
+  },
+  "er": {
+   "name": "WebGLShader"
+  },
+  "tr": {
+   "name": "COMPLETION_STATUS_KHR"
+  },
+  "nr": {
+   "name": "programIdCount"
+  },
+  "rr": {
+   "name": "handleSource"
+  },
+  "ar": {
+   "name": "getEncodingComponents"
+  },
+  "or": {
+   "name": "getShaderErrors"
+  },
+  "sr": {
+   "name": "getTexelEncodingFunction"
+  },
+  "cr": {
+   "name": "toneMappingFunctions"
+  },
+  "lr": {
+   "name": "getToneMappingFunction"
+  },
+  "dr": {
+   "name": "getLuminanceFunction"
+  },
+  "fr": {
+   "name": "generateVertexExtensions"
+  },
+  "pr": {
+   "name": "generateDefines"
+  },
+  "mr": {
+   "name": "fetchAttributeLocations"
+  },
+  "gr": {
+   "name": "replaceLightNums"
+  },
+  "_r": {
+   "name": "replaceClippingPlaneNums"
+  },
+  "yr": {
+   "name": "resolveIncludes"
+  },
+  "br": {
+   "name": "shaderChunkMap"
+  },
+  "xr": {
+   "name": "includeReplacer"
+  },
+  "Cr": {
+   "name": "unrollLoops"
+  },
+  "wr": {
+   "name": "loopReplacer"
+  },
+  "Tr": {
+   "name": "generatePrecision"
+  },
+  "Er": {
+   "name": "shadowMapTypeDefines"
+  },
+  "Dr": {
+   "name": "generateShadowMapTypeDefine"
+  },
+  "Or": {
+   "name": "envMapTypeDefines"
+  },
+  "kr": {
+   "name": "generateEnvMapTypeDefine"
+  },
+  "Ar": {
+   "name": "envMapModeDefines"
+  },
+  "jr": {
+   "name": "generateEnvMapModeDefine"
+  },
+  "Mr": {
+   "name": "envMapBlendingDefines"
+  },
+  "Nr": {
+   "name": "generateEnvMapBlendingDefine"
+  },
+  "Pr": {
+   "name": "generateCubeUVSize"
+  },
+  "Fr": {
+   "name": "WebGLProgram"
+  },
+  "Ir": {
+   "name": "_id"
+  },
+  "Lr": {
+   "name": "WebGLShaderCache"
+  },
+  "Rr": {
+   "name": "WebGLShaderStage"
+  },
+  "Br": {
+   "name": "WebGLPrograms"
+  },
+  "Vr": {
+   "name": "WebGLProperties"
+  },
+  "Hr": {
+   "name": "painterSortStable"
+  },
+  "Ur": {
+   "name": "reversePainterSortStable"
+  },
+  "Wr": {
+   "name": "WebGLRenderList"
+  },
+  "Gr": {
+   "name": "WebGLRenderLists"
+  },
+  "Kr": {
+   "name": "UniformsCache"
+  },
+  "qr": {
+   "name": "ShadowUniformsCache"
+  },
+  "Jr": {
+   "name": "nextVersion"
+  },
+  "Yr": {
+   "name": "shadowCastingAndTexturingLightsFirst"
+  },
+  "Xr": {
+   "name": "WebGLLights"
+  },
+  "Zr": {
+   "name": "WebGLRenderState"
+  },
+  "Qr": {
+   "name": "WebGLRenderStates"
+  },
+  "$r": {
+   "name": "vertex"
+  },
+  "ei": {
+   "name": "fragment"
+  },
+  "ti": {
+   "name": "_cubeDirections"
+  },
+  "ni": {
+   "name": "_cubeUps"
+  },
+  "oi": {
+   "name": "WebGLShadowMap"
+  },
+  "si": {
+   "name": "WebGLState"
+  },
+  "ci": {
+   "name": "WebGLTextures"
+  },
+  "li": {
+   "name": "WebGLUtils"
+  },
+  "ui": {
+   "name": "_occlusion_vertex"
+  },
+  "di": {
+   "name": "_occlusion_fragment"
+  },
+  "fi": {
+   "name": "WebXRDepthSensing"
+  },
+  "pi": {
+   "name": "WebXRManager"
+  },
+  "gi": {
+   "name": "WebGLMaterials"
+  },
+  "_i": {
+   "name": "WebGLUniformsGroups"
+  },
+  "vi": {
+   "name": "DATA"
+  },
+  "bi": {
+   "name": "getDFGLUT"
+  },
+  "xi": {
+   "name": "WebGLRenderer"
+  }
+ }
+}
